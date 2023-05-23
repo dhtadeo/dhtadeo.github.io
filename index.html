@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,60 @@
     <title>TadeoWeb</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    
-    <!-- Header -->
-    
-    <!-- Content -->
-    <h1>FART</h1>
-    
-    <img src="https://media.tenor.com/7NgUinq-8xoAAAAd/bowser-bowser-fart.gif"/>
 
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="index.html">
+                <img src="res/RelicDoge.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                <strong>Tadeo</strong>Web
+            </a>
+
+            <div id="datetime"></div>
+
+            <strong>
+                <div id="init-random-text"></div>
+            </strong>
+
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menú</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Redes Sociales</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Más...</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled">Próximamente...</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+
+    <!-- Scripts -->
+    <script src="res/formatDateTime.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="res/navbarRandomText.js"></script>
 </body>
+
 </html>
