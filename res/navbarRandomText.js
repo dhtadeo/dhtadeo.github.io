@@ -29,14 +29,13 @@ var text = [
     `Guitar no hizo nada malo #advysave #advyin #ilikeminors`,
     `Loser!! Get a life!`,
     `𝐅𝐑𝐈𝐄𝐍𝐃𝐒 𝐀𝐑𝐄 𝐒𝐓𝐑𝐎𝐍𝐆𝐄𝐑 𝐓𝐎𝐆𝐄𝐓𝐇𝐄𝐑 ✧  🎀  𝒸𝒽𝒾𝓁𝒹 𝓅🌺𝓇𝓃 𝓁𝒾𝓃𝓀𝓈 𝒾𝓃 𝓉𝒽𝑒 𝒹𝑒𝓈𝒸𝓇𝒾𝓅𝓉𝒾💗𝓃  🎀  ✧`,
-    `Hey guys, did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans? Not only are they in the field egg group, which is mostly comprised of mammals, Vaporeon are an average of 3"03' tall and 63.9 pounds. this means they're large enough to be able to handle human dicks, and with their impressive Base stats for HP and access to Acid Armor, you can be rough with one. Due to their mostly water based biology, there's no doubt in my mind that an aroused Vaporeon would be incredibly wet, so wet that you could easily have sex with one for hours without getting sore. They can also learn the moves Attract, Baby-Doll eyes, Captivate, Charm and Tail Whip along with not having fur to hide nipples, so it'd be incredibly easy for one to get you in the mood. With their abilities Water Absorb and Hydration, they can easily recover from fatigue with enough water. No other Pokémon comes close with this level of compatibility. Also, fun fact, if you pull out enough, you can make your Vaporeon turn white. Vaporeon is literally built for human dick. Ungodly defense stat + high HP pool + Acid Armor means it can take cock all day, all shapes and sizes and still come for more.`,
-    `Ant farm go 🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜`,
+    `ANT FARM GO 🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜🐜`,
     `Glarpnorp schneeble bop! Jong gong lorbsday! Jong gong lorbsday! Hrook Uber hrook.`,
     `Hello I like pussy`,
     `Das Hodenverstümmelung`,
-    `Cock and ball torture (CBT) is a sexual activity involving application of pain or constriction to the male genitals. This may involve directly painful activities, such as wax play, genital spanking, squeezing, ball-busting, genital flogging, urethral play, tickle torture, erotic electrostimulation or even kicking.[1] The recipient of such activities may receive direct physical pleasure via masochism, or emotional pleasure through erotic humiliation, or knowledge that the play is pleasing to a sadistic dominant. Many of these practices carry significant health risks.`,
     `¡Así se festeja en el obelisco!`,
-    `.img girldick sucking competition 100,000 dollar prize location date and time`
+    `they just freaking raised the age of consent in japan. I'm so done. One of the most sugoi things japan has ever done and they take it away? I loved Japan but i hate japan now.`,
+    `φρόττινγ`
 ];
 
 function chooseRandomText() {
