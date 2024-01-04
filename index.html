@@ -38,7 +38,7 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Redes Sociales</a>
+                            <a class="nav-link" href="">Redes Sociales</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Más...</a>
@@ -59,39 +59,120 @@
     </div>
 
     <!-- Cards -->
-    <table>
-        <tr>
-            <td>
-                <!-- Terrible Food -->
-                <div class="card" style="width: 18rem;">
-                    <img src="res/terrible-food/terriblefood_01.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Terrible food</h5>
-                        <p class="card-text">View a gallery of extremely terrible and regrettable food.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            View
-                        </button>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <!-- Websites -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://pbs.twimg.com/profile_images/1740548575212220416/kI8zDKUs_400x400.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Websites</h5>
+                            <p class="card-text">Don't lose sight of the almighty Tadeo!</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop2">
+                                View
+                            </button>
+                        </div>
                     </div>
-                </div>            
-            </td>
-            <td>
-                <!-- Comming soon -->
-                <div class="card" style="width: 18rem;">
-                    <img src="res/moyo mecanico.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Comming soon</h5>
-                        <p class="card-text">This is just a test subject. More will be added, soon...</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" disabled>Ok die</button>
+                </td>
+                <td>
+                    <!-- Terrible Food -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="res/terrible-food/terriblefood_01.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Terrible food</h5>
+                            <p class="card-text">View a gallery of extremely terrible and regrettable food.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop1">
+                                View
+                            </button>
+                        </div>
                     </div>
-                </div>            
-            </td>
-        </tr>
-    </table>
+                </td>
+                <td>
+                    <!-- Comming soon -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="res/moyo mecanico.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Comming soon</h5>
+                            <p class="card-text">This is just a test subject. More will be added, soon...</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" disabled>Ok die</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <!-- Website Modal -->
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Websites</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Twitter</h5>
+                                            <p class="card-text">No, is not X.</p>
+                                            <a href="https://twitter.com/tadearaneta" class="btn btn-info" target="_blank">@tadearaneta</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Youtube</h5>
+                                            <p class="card-text">It's been a year since I don't upload anything</p>
+                                            <a href="https://www.youtube.com/channel/UCygJ3P2C7FUW5MAq1CIvjpw" class="btn btn-danger" target="_blank">Youtube</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Discord Server</h5>
+                                            <p class="card-text">It's a Geometry Dash collab server but maybe soon I can
+                                                create something else with that server</p>
+                                            <a href="https://discord.gg/hAbWnE4xuu" class="btn btn-primary" target="_blank">Discord</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GitHub</h5>
+                                            <p class="card-text">This webpage wouldn't exist with Git(GOD)</p>
+                                            <a href="https://github.com/dhtadeo" class="btn btn-dark" target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                            </tr>
+                            </tr>
+                        </table>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Terrible Food Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content">
@@ -168,7 +249,8 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Cumming soon...</h5>
                                             <h6 class="card-subtitle mb-2 text-body-secondary">Yeah, soon</h6>
-                                            <p class="card-text">Expect more terrible and absurd food showing in this site. Be ready for more vomit and bullshit food.</p>
+                                            <p class="card-text">Expect more terrible and absurd food showing in this
+                                                site. Be ready for more vomit and bullshit food.</p>
                                         </div>
                                     </div>
                                 </td>
@@ -188,7 +270,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="res/navbarRandomText.js"></script>
 </body>
-
-</html>
 
 </html>
