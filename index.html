@@ -29,23 +29,67 @@
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
                 aria-labelledby="offcanvasWithBothOptionsLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menú</h5>
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Home</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Redes Sociales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Más...</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Próximamente...</a>
-                        </li>
+
+                        <table>
+                            <tr>
+                                <!-- Websites Card in Offcanvas -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="res/TadeoStudio_WM_01.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Websites</h5>
+                                        <p class="card-text">Don't lose sight of the almighty Tadeo!</p>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop2">
+                                            View
+                                        </button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr><br></tr>
+                            <tr>
+                                <!-- Terrible Food in Offcanvas -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="res/terrible-food/terriblefood_01.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Terrible food</h5>
+                                        <p class="card-text">View a gallery of extremely terrible and regrettable food.
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop1">
+                                            View
+                                        </button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr><br></tr>
+                            <tr>
+                                <!-- Comming soon in Offcanvas -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="res/moyo mecanico.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Comming soon</h5>
+                                        <p class="card-text">This is just a test subject. More will be added, soon...
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" disabled>Ok die</button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr><br></tr>
+                            <tr>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">TadeoWeb_Ver_0.34.026beta</a>
+                                </li>
+                            </tr>
+                        </table>
+
                     </ul>
                 </div>
             </div>
@@ -65,7 +109,7 @@
                 <td>
                     <!-- Websites -->
                     <div class="card" style="width: 18rem;">
-                        <img src="https://pbs.twimg.com/profile_images/1740548575212220416/kI8zDKUs_400x400.jpg" class="card-img-top" alt="...">
+                        <img src="res/TadeoStudio_WM_01.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Websites</h5>
                             <p class="card-text">Don't lose sight of the almighty Tadeo!</p>
@@ -77,6 +121,11 @@
                         </div>
                     </div>
                 </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td>
                     <!-- Terrible Food -->
                     <div class="card" style="width: 18rem;">
@@ -92,6 +141,11 @@
                         </div>
                     </div>
                 </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td>
                     <!-- Comming soon -->
                     <div class="card" style="width: 18rem;">
@@ -126,19 +180,31 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Twitter</h5>
                                             <p class="card-text">No, is not X.</p>
-                                            <a href="https://twitter.com/tadearaneta" class="btn btn-info" target="_blank">@tadearaneta</a>
+                                            <a href="https://twitter.com/tadearaneta" class="btn btn-info"
+                                                target="_blank">@tadearaneta</a>
                                         </div>
                                     </div>
                                 </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>
                                     <div class="card" style="width: 18rem;">
                                         <div class="card-body">
                                             <h5 class="card-title">Youtube</h5>
                                             <p class="card-text">It's been a year since I don't upload anything</p>
-                                            <a href="https://www.youtube.com/channel/UCygJ3P2C7FUW5MAq1CIvjpw" class="btn btn-danger" target="_blank">Youtube</a>
+                                            <a href="https://www.youtube.com/channel/UCygJ3P2C7FUW5MAq1CIvjpw"
+                                                class="btn btn-danger" target="_blank">Youtube</a>
                                         </div>
                                     </div>
                                 </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>
@@ -147,19 +213,26 @@
                                             <h5 class="card-title">Discord Server</h5>
                                             <p class="card-text">It's a Geometry Dash collab server but maybe soon I can
                                                 create something else with that server</p>
-                                            <a href="https://discord.gg/hAbWnE4xuu" class="btn btn-primary" target="_blank">Discord</a>
+                                            <a href="https://discord.gg/hAbWnE4xuu" class="btn btn-primary"
+                                                target="_blank">Discord</a>
                                         </div>
                                     </div>
                                 </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>
                                     <div class="card" style="width: 18rem;">
                                         <div class="card-body">
                                             <h5 class="card-title">GitHub</h5>
                                             <p class="card-text">This webpage wouldn't exist with Git(GOD)</p>
-                                            <a href="https://github.com/dhtadeo" class="btn btn-dark" target="_blank">GitHub</a>
+                                            <a href="https://github.com/dhtadeo" class="btn btn-dark"
+                                                target="_blank">GitHub</a>
                                         </div>
                                     </div>
-                            </tr>
+                                </td>
                             </tr>
                         </table>
                     </center>
