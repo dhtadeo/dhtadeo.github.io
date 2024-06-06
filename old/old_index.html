@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TadeoWeb</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="res/RelicDoge.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                <strong>Tadeo</strong>Web
+            </a>
+
+            <div id="datetime"></div>
+
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Home</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="nav flex-column">
+
+                        <table>
+                            <tr>
+                                <!-- Websites Card in Offcanvas -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="res/TadeoStudio_WM_01.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Websites</h5>
+                                        <p class="card-text">Don't lose sight of the almighty Tadeo!</p>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop2">
+                                            View
+                                        </button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr><br></tr>
+                            <tr>
+                                <!-- Terrible Food in Offcanvas -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="res/terrible-food/terriblefood_01.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Terrible food</h5>
+                                        <p class="card-text">View a gallery of extremely terrible and regrettable food.
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop1">
+                                            View
+                                        </button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr><br></tr>
+                            <tr>
+                                <!-- Comming soon in Offcanvas -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="res/moyo mecanico.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Comming soon</h5>
+                                        <p class="card-text">This is just a test subject. More will be added, soon...
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" disabled>Ok die</button>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr><br></tr>
+                            <tr>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">TadeoWeb_Ver_0.34.026beta</a>
+                                </li>
+                            </tr>
+                        </table>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+        <div id="init-random-text"></div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="res/formatDateTime.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="res/navbarRandomText.js"></script>
+
+</body>
+
+</html>

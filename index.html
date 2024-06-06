@@ -3,345 +3,113 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TadeoWeb</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/special.css">
+    <link rel="icon" type="image/x-icon" href="res/favicon.ico">
+    <title>Tadeo Studio</title>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
+    <header>
+        <img src="res/tadeo_studio.png">
+        <h1>Tadeo</h1>
+        <p>Sleeping</p>
+    </header>
 
-            <a class="navbar-brand" href="index.html">
-                <img src="res/RelicDoge.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                <strong>Tadeo</strong>Web
-            </a>
+    <section id="bio">
+        <h2>Honest Biography</h2>
+        <p>I'm a video editor (Sony Vegas Pro), a programmer (C++, C#, Python, Javascript, Java, Ruby), a designer (HTML
+            stuff and graphic design) and an unexperienced artist (Paint Tool SAI 2, Sketchbook). I spend all my time
+            playing Geometry Dash, trying to create levels. I also play many games such as Brawl Stars, Bloons TD 6,
+            Minecraft and The Battle Cats. I pass the majority of time editing videos for myself or friends and doing
+            comissions for them (Contact me for more info). I'm a 21 years old human being from somewhere in Mexico and
+            I mostly speak English and Spanish.</p>
+    </section>
 
-            <div id="datetime"></div>
-
-            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
-                aria-labelledby="offcanvasWithBothOptionsLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Home</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <section id="contact">
+        <h2>Find Me</h2>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3>Twitter</h3>
+                    <p>I used to spend a lot on time here. Sometimes I cook something.</p>
+                    <button target="_blank" onclick="window.open('https://x.com/tadearaneta', '')">Twitter</button>
                 </div>
-                <div class="offcanvas-body">
-                    <ul class="nav flex-column">
-
-                        <table>
-                            <tr>
-                                <!-- Websites Card in Offcanvas -->
-                                <div class="card" style="width: 18rem;">
-                                    <img src="res/TadeoStudio_WM_01.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Websites</h5>
-                                        <p class="card-text">Don't lose sight of the almighty Tadeo!</p>
-                                        <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#staticBackdrop2">
-                                            View
-                                        </button>
-                                    </div>
-                                </div>
-                            </tr>
-                            <tr><br></tr>
-                            <tr>
-                                <!-- Terrible Food in Offcanvas -->
-                                <div class="card" style="width: 18rem;">
-                                    <img src="res/terrible-food/terriblefood_01.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Terrible food</h5>
-                                        <p class="card-text">View a gallery of extremely terrible and regrettable food.
-                                        </p>
-                                        <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#staticBackdrop1">
-                                            View
-                                        </button>
-                                    </div>
-                                </div>
-                            </tr>
-                            <tr><br></tr>
-                            <tr>
-                                <!-- Comming soon in Offcanvas -->
-                                <div class="card" style="width: 18rem;">
-                                    <img src="res/moyo mecanico.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Comming soon</h5>
-                                        <p class="card-text">This is just a test subject. More will be added, soon...
-                                        </p>
-                                        <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" disabled>Ok die</button>
-                                    </div>
-                                </div>
-                            </tr>
-                            <tr><br></tr>
-                            <tr>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled">TadeoWeb_Ver_0.34.026beta</a>
-                                </li>
-                            </tr>
-                        </table>
-
-                    </ul>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>YouTube</h3>
+                    <p>You see, it's been years since I uploaded a well designed video.</p>
+                    <button target="_blank" onclick="window.open('https://www.youtube.com/channel/UCygJ3P2C7FUW5MAq1CIvjpw', '')">YouTube</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Discord Server</h3>
+                    <p>Geometry Dash collab server. Dead server but you can join.</p>
+                    <button target="_blank" onclick="window.open('https://discord.gg/hAbWnE4xuu', '')">Discord</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>GitHub</h3>
+                    <p>This is my basement. You will find many things here soon.</p>
+                    <button target="_blank" onclick="window.open('https://github.com/dhtadeo', '')">GitHub</button>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <!-- Content -->
-    <div class="alert alert-secondary alert-dismissible fade show" role="alert">
-        <div id="init-random-text"></div>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-
-    <!-- Cards -->
-    <center>
-        <table>
-            <tr>
-                <td>
-                    <!-- Websites -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="res/TadeoStudio_WM_01.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Websites</h5>
-                            <p class="card-text">Don't lose sight of the almighty Tadeo!</p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop2">
-                                View
-                            </button>
-                        </div>
-                    </div>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <!-- Terrible Food -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="res/terrible-food/terriblefood_01.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Terrible food</h5>
-                            <p class="card-text">View a gallery of extremely terrible and regrettable food.</p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop1">
-                                View
-                            </button>
-                        </div>
-                    </div>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <!-- Comming soon -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="res/moyo mecanico.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Comming soon</h5>
-                            <p class="card-text">This is just a test subject. More will be added, soon...</p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" disabled>Ok die</button>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </center>
-
-    <!-- Website Modal -->
-    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Websites</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3>Reddit</h3>
+                    <p>Uh, okay? I don't use the site that much but sometimes.</p><br>
+                    <button target="_blank" onclick="window.open('https://www.reddit.com/user/DHTadeo/', '')">Reddit</button>
                 </div>
-                <div class="modal-body">
-                    <center>
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Twitter</h5>
-                                            <p class="card-text">No, is not X.</p>
-                                            <a href="https://twitter.com/tadearaneta" class="btn btn-info"
-                                                target="_blank">@tadearaneta</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Youtube</h5>
-                                            <p class="card-text">It's been a year since I don't upload anything</p>
-                                            <a href="https://www.youtube.com/channel/UCygJ3P2C7FUW5MAq1CIvjpw"
-                                                class="btn btn-danger" target="_blank">Youtube</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Discord Server</h5>
-                                            <p class="card-text">It's a Geometry Dash collab server but maybe soon I can
-                                                create something else with that server</p>
-                                            <a href="https://discord.gg/hAbWnE4xuu" class="btn btn-primary"
-                                                target="_blank">Discord</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                            <h5 class="card-title">GitHub</h5>
-                                            <p class="card-text">This webpage wouldn't exist with Git(GOD)</p>
-                                            <a href="https://github.com/dhtadeo" class="btn btn-dark"
-                                                target="_blank">GitHub</a>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </center>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Twitch</h3>
+                    <p>I wish I could make a stream, at least I have a page with zero streams.</p>
+                    <button target="_blank" onclick="window.open('https://www.twitch.tv/dhtadeo', '')">Twitch</button>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Steam</h3>
+                    <p>Send friend request, I'm outta friends.</p><br>
+                    <button target="_blank" onclick="window.open('https://steamcommunity.com/id/dhtadeo/', '')">Steam</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Anything Else?</h3>
+                    <p>Nope, this is just a placeholder to fill the page.</p><br>
+                    <button >Happy Placeholding!</button>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Terrible Food Modal -->
-    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Terrible food</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <center>
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="res/terrible-food/terriblefood_01.png" class="card-img-top"
-                                            alt="Stupid poor ass beans with nuggot">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Stupid poor ass beans with nuggots</h5>
-                                            <p class="card-text">Why the fuck is this shit in the microwave?</p>
-                                            <a href="res/terrible-food/terriblefood_01.png" class="btn btn-primary"
-                                                target="_blank">Full image</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="res/terrible-food/terriblefood_02.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">"Dad forgot to buy burger meat"</h5>
-                                            <p class="card-text">Don't get my ass with this terrible aberration.</p>
-                                            <a href="res/terrible-food/terriblefood_02.jpg" class="btn btn-primary"
-                                                target="_blank">Full image</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="res/terrible-food/terriblefood_03.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Beannie Juiice</h5>
-                                            <p class="card-text">Oh my god, young man, don't show brit beans bitch these
-                                                are the worst beans.</p>
-                                            <a href="res/terrible-food/terriblefood_03.jpg" class="btn btn-primary"
-                                                target="_blank">Full image</a>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="res/terrible-food/terriblefood_04.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Fuck pineapple pizza, we dinning BANANA pizza</h5>
-                                            <p class="card-text">The pineapple in the pizza was better...</p>
-                                            <a href="res/terrible-food/terriblefood_04.jpg" class="btn btn-primary"
-                                                target="_blank">Full image</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="res/terrible-food/terriblefood_05.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Absurd and extremely poor ass cuisineless torta</h5>
-                                            <p class="card-text">What the fuck is wrong with everything in this image?
-                                            </p>
-                                            <a href="res/terrible-food/terriblefood_05.jpg" class="btn btn-primary"
-                                                target="_blank">Full image</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Cumming soon...</h5>
-                                            <h6 class="card-subtitle mb-2 text-body-secondary">Yeah, soon</h6>
-                                            <p class="card-text">Expect more terrible and absurd food showing in this
-                                                site. Be ready for more vomit and bullshit food.</p>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </center>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <section id="work">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3>Willysuga Memories</h3>
+                    <p>Placeholder, see more in the future.</p>
+                    <button>Okay</button>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Scripts -->
-    <script src="res/formatDateTime.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="res/navbarRandomText.js"></script>
+    <footer>
+        <p id="init-random-text"></p>
+    </footer>
+
+    <script src="js/navbarRandomText.js"></script>
 </body>
 
 </html>

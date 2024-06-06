@@ -1,4 +1,8 @@
-# dhtadeo.github.io
-Tadeo Web Page... Comming soon... I promise!
+# Tadeo Studio
 
-June 1st, 2024. We will update!!!!!!
+Version 1.0.0 is now available!
+New Features:
+- New UI Looking.
+- New styles.
+- More to come.
+- I will keep cooking these days, stay tuned.
