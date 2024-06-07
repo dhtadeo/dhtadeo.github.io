@@ -23,7 +23,7 @@ function mostrarFechaHoraActual() {
     segundos = segundos < 10 ? "0" + segundos : segundos;
 
     // Actualizar el contenido del elemento HTML
-    datetimeElement.textContent = mes + " " + dia + ", " + ano + " - " + hora + ":" + minutos + ":" + segundos + " " + amPm;
+    datetimeElement.textContent = mes + " " + dia + ", " + ano + " - " + hora + ":" + minutos + ":" + segundos;
 }
 
 // Llamar a la función inicialmente para mostrar la fecha y hora actual

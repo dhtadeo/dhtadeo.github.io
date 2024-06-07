@@ -1,0 +1,139 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url('https://images.wikidexcdn.net/mwuploads/wikidex/f/f5/latest/20240119093803/Ilustraci%C3%B3n_Pok%C3%A9mon_paradoja_primitivos.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure the nav bar is on top */
+}
+
+.container {
+    display: flex;
+    margin-top: 60px; /* Adjust to prevent content being hidden behind the nav */
+    padding-bottom: 60px; /* Space for the footer */
+}
+
+.profile-section {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the buttons */
+    margin-top: 20px;
+}
+
+.social-media button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content within the button */
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.social-media button:hover {
+    background: #005f8b;
+}
+
+.social-media button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content-section {
+    flex: 2;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    position: relative;
+    z-index: 1;
+}
+
+.card-content h3, .card-content p, .card-content button {
+    margin: 10px 0;
+}
+
+.card-content button {
+    padding: 10px;
+    background: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.card-content button:hover {
+    background: #005f8b;
+}
+
+/* Footer styles */
+footer {
+    position: relative;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.8); /* Añade transparencia para ver la imagen de fondo */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content-section {
+        grid-template-columns: 1fr;
+    }
+}
+
