@@ -1,13 +1,13 @@
-// Obtener la referencia al elemento HTML
+// Get HTML element by ID
 var datetimeElement = document.getElementById('datetime');
 
-// Array de nombres de los meses
+// Month name array
 var meses = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
 ];
 
-// Función para obtener la fecha y hora actual y actualizar el contenido del elemento HTML
+// Obtain date & time and update the actual time 
 function mostrarFechaHoraActual() {
     var fechaHoraActual = new Date();
     var dia = fechaHoraActual.getDate();
@@ -16,18 +16,18 @@ function mostrarFechaHoraActual() {
     var hora = fechaHoraActual.getHours();
     var minutos = fechaHoraActual.getMinutes();
     var segundos = fechaHoraActual.getSeconds();
-    var amPm = hora >= 12 ? "PM" : "AM";
+    //var amPm = hora >= 12 ? "PM" : "AM";
 
-    // Formatear los minutos y segundos para que siempre tengan dos dígitos
+    // Format minutes and seconds to always have two digits
     minutos = minutos < 10 ? "0" + minutos : minutos;
     segundos = segundos < 10 ? "0" + segundos : segundos;
 
-    // Actualizar el contenido del elemento HTML
+    // Update HTML content
     datetimeElement.textContent = mes + " " + dia + ", " + ano + " - " + hora + ":" + minutos + ":" + segundos;
 }
 
-// Llamar a la función inicialmente para mostrar la fecha y hora actual
+// Call the date time update function
 mostrarFechaHoraActual();
 
-// Actualizar la fecha y hora cada segundo
+// Update the interval every second (1000)
 setInterval(mostrarFechaHoraActual, 1000);
