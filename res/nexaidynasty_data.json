@@ -1,0 +1,274 @@
+[
+    {
+        "No.": 0,
+        "Timestamps": "0:00",
+        "Color IDs": "1 - 2",
+        "Group IDs": "1 - 20",
+        "Creator(s)": null,
+        "Status": "Col. 1: Blanco, Col. 2: Negro"
+    },
+    {
+        "No.": 1,
+        "Timestamps": "0:00 - 0:14",
+        "Color IDs": "3 - 32",
+        "Group IDs": "21 - 320",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 2,
+        "Timestamps": "0:14 - 0:28",
+        "Color IDs": "33 - 62",
+        "Group IDs": "321 - 620",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 3,
+        "Timestamps": "0:28 - 0:42",
+        "Color IDs": "63 - 92",
+        "Group IDs": "621 - 920",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 4,
+        "Timestamps": "0:42 - 0:56",
+        "Color IDs": "93 - 122",
+        "Group IDs": "921 - 1220",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 5,
+        "Timestamps": "0:56 - 1:10",
+        "Color IDs": "123 - 152",
+        "Group IDs": "1221 - 1520",
+        "Creator(s)": "GDParks",
+        "Status": "Terminado"
+    },
+    {
+        "No.": 6,
+        "Timestamps": "1:10 - 1:24",
+        "Color IDs": "153 - 182",
+        "Group IDs": "1521 - 1820",
+        "Creator(s)": "Toto545",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 7,
+        "Timestamps": "1:24 - 1:38",
+        "Color IDs": "183 - 212",
+        "Group IDs": "1821 - 2120",
+        "Creator(s)": "chebi9",
+        "Status": "En riesgo"
+    },
+    {
+        "No.": 8,
+        "Timestamps": "1:38 - 1:52",
+        "Color IDs": "213 - 242",
+        "Group IDs": "2121 - 2420",
+        "Creator(s)": "Regina",
+        "Status": "Terminado"
+    },
+    {
+        "No.": 9,
+        "Timestamps": "1:52 - 2:06",
+        "Color IDs": "243 - 272",
+        "Group IDs": "2421 - 2720",
+        "Creator(s)": "Forty",
+        "Status": "Terminado"
+    },
+    {
+        "No.": 10,
+        "Timestamps": "2:06 - 2:20",
+        "Color IDs": "273 - 302",
+        "Group IDs": "2721 - 3020",
+        "Creator(s)": "Tadeo",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 11,
+        "Timestamps": "2:20 - 2:34",
+        "Color IDs": "303 - 332",
+        "Group IDs": "3021 - 3320",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 12,
+        "Timestamps": "2:34 - 2:48",
+        "Color IDs": "333 - 362",
+        "Group IDs": "3321 - 3620",
+        "Creator(s)": "Heldepa",
+        "Status": "Terminado"
+    },
+    {
+        "No.": 13,
+        "Timestamps": "2:48 - 3:02",
+        "Color IDs": "363 - 392",
+        "Group IDs": "3621 - 3920",
+        "Creator(s)": "Jaredwer",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 14,
+        "Timestamps": "3:02 - 3:16",
+        "Color IDs": "393 - 422",
+        "Group IDs": "3921 - 4220",
+        "Creator(s)": "Julian",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 15,
+        "Timestamps": "3:16 - 3:30",
+        "Color IDs": "423 - 452",
+        "Group IDs": "4221 - 4520",
+        "Creator(s)": "PGuillermus",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 16,
+        "Timestamps": "3:30 - 3:44",
+        "Color IDs": "453 - 482",
+        "Group IDs": "4521 - 4820",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 17,
+        "Timestamps": "3:44 - 3:58",
+        "Color IDs": "483 - 512",
+        "Group IDs": "4821 - 5120",
+        "Creator(s)": "Ajo",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 18,
+        "Timestamps": "3:58 - 4:12",
+        "Color IDs": "513 - 542",
+        "Group IDs": "5121 - 5420",
+        "Creator(s)": "BeClan",
+        "Status": "En riesgo"
+    },
+    {
+        "No.": 19,
+        "Timestamps": "4:12 - 4:26",
+        "Color IDs": "543 - 572",
+        "Group IDs": "5421 - 5720",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 20,
+        "Timestamps": "4:26 - 4:40",
+        "Color IDs": "573 - 602",
+        "Group IDs": "5721 - 6020",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 21,
+        "Timestamps": "4:40 - 4:54",
+        "Color IDs": "603 - 632",
+        "Group IDs": "6021 - 6320",
+        "Creator(s)": "ElEmilio",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 22,
+        "Timestamps": "4:54 - 5:08",
+        "Color IDs": "633 - 662",
+        "Group IDs": "6321 - 6620",
+        "Creator(s)": "c mamut",
+        "Status": "Terminado"
+    },
+    {
+        "No.": 23,
+        "Timestamps": "5:08 - 5:22",
+        "Color IDs": "663 - 692",
+        "Group IDs": "6621 - 6920",
+        "Creator(s)": "d4rk",
+        "Status": null
+    },
+    {
+        "No.": 24,
+        "Timestamps": "5:22 - 5:36",
+        "Color IDs": "693 - 722",
+        "Group IDs": "6921 - 7220",
+        "Creator(s)": "Tutu",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 25,
+        "Timestamps": "5:36 - 5:50",
+        "Color IDs": "723 - 752",
+        "Group IDs": "7221 - 7520",
+        "Creator(s)": "Emder",
+        "Status": "En progreso"
+    },
+    {
+        "No.": 26,
+        "Timestamps": "5:50 - 6:04",
+        "Color IDs": "753 - 782",
+        "Group IDs": "7521 - 7820",
+        "Creator(s)": "Alecks, Warrior",
+        "Status": null
+    },
+    {
+        "No.": 27,
+        "Timestamps": "6:04 - 6:18",
+        "Color IDs": "783 - 812",
+        "Group IDs": "7821 - 8120",
+        "Creator(s)": "Dylan, Spak",
+        "Status": null
+    },
+    {
+        "No.": 28,
+        "Timestamps": "6:18 - 6:32",
+        "Color IDs": "813 - 842",
+        "Group IDs": "8121 - 8420",
+        "Creator(s)": "Xerav",
+        "Status": "Terminado"
+    },
+    {
+        "No.": 29,
+        "Timestamps": "6:32 - 6:46",
+        "Color IDs": "843 - 872",
+        "Group IDs": "8421 - 8720",
+        "Creator(s)": "goran",
+        "Status": null
+    },
+    {
+        "No.": 30,
+        "Timestamps": "6:46 - 7:00",
+        "Color IDs": "873 - 902",
+        "Group IDs": "8721 - 9020",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 31,
+        "Timestamps": "7:00 - 7:14",
+        "Color IDs": "903 - 932",
+        "Group IDs": "9021 - 9320",
+        "Creator(s)": null,
+        "Status": null
+    },
+    {
+        "No.": 32,
+        "Timestamps": "7:14 - 7:28",
+        "Color IDs": "933 - 962",
+        "Group IDs": "9321 - 9620",
+        "Creator(s)": "Cirdy34",
+        "Status": "En progreso"
+    },
+    {
+        "No.": "...",
+        "Timestamps": "7:28",
+        "Color IDs": "963 - 999",
+        "Group IDs": "9621 - 9999",
+        "Creator(s)": null,
+        "Status": "Endscreen"
+    }
+]
