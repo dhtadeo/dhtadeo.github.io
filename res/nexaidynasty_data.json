@@ -12,32 +12,32 @@
         "Timestamps": "0:00 - 0:14",
         "Color IDs": "3 - 32",
         "Group IDs": "21 - 320",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Simvnn y AkaLimes",
+        "Status": "En progreso"
     },
     {
         "No.": 2,
         "Timestamps": "0:14 - 0:28",
         "Color IDs": "33 - 62",
         "Group IDs": "321 - 620",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Simvnn y AkaLimes",
+        "Status": "En progreso"
     },
     {
         "No.": 3,
         "Timestamps": "0:28 - 0:42",
         "Color IDs": "63 - 92",
         "Group IDs": "621 - 920",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Simvnn y AkaLimes",
+        "Status": "En progreso"
     },
     {
         "No.": 4,
         "Timestamps": "0:42 - 0:56",
         "Color IDs": "93 - 122",
         "Group IDs": "921 - 1220",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Simvnn y AkaLimes",
+        "Status": "En progreso"
     },
     {
         "No.": 5,
@@ -60,8 +60,8 @@
         "Timestamps": "1:24 - 1:38",
         "Color IDs": "183 - 212",
         "Group IDs": "1821 - 2120",
-        "Creator(s)": "chebi9",
-        "Status": "En riesgo"
+        "Creator(s)": "Exorsus",
+        "Status": null
     },
     {
         "No.": 8,
@@ -85,15 +85,15 @@
         "Color IDs": "273 - 302",
         "Group IDs": "2721 - 3020",
         "Creator(s)": "Tadeo",
-        "Status": "En progreso"
+        "Status": "Terminado"
     },
     {
         "No.": 11,
         "Timestamps": "2:20 - 2:34",
         "Color IDs": "303 - 332",
         "Group IDs": "3021 - 3320",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Regina",
+        "Status": "En progreso"
     },
     {
         "No.": 12,
@@ -117,7 +117,7 @@
         "Color IDs": "393 - 422",
         "Group IDs": "3921 - 4220",
         "Creator(s)": "Julian",
-        "Status": "En progreso"
+        "Status": "Terminado (Por modificar)"
     },
     {
         "No.": 15,
@@ -132,8 +132,8 @@
         "Timestamps": "3:30 - 3:44",
         "Color IDs": "453 - 482",
         "Group IDs": "4521 - 4820",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Simvnn",
+        "Status": "En progreso"
     },
     {
         "No.": 17,
@@ -148,8 +148,8 @@
         "Timestamps": "3:58 - 4:12",
         "Color IDs": "513 - 542",
         "Group IDs": "5121 - 5420",
-        "Creator(s)": "BeClan",
-        "Status": "En riesgo"
+        "Creator(s)": null,
+        "Status": null
     },
     {
         "No.": 19,
@@ -164,7 +164,7 @@
         "Timestamps": "4:26 - 4:40",
         "Color IDs": "573 - 602",
         "Group IDs": "5721 - 6020",
-        "Creator(s)": null,
+        "Creator(s)": "AlpacaGamer",
         "Status": null
     },
     {
@@ -213,7 +213,7 @@
         "Color IDs": "753 - 782",
         "Group IDs": "7521 - 7820",
         "Creator(s)": "Alecks, Warrior",
-        "Status": null
+        "Status": "En progreso"
     },
     {
         "No.": 27,
@@ -236,15 +236,15 @@
         "Timestamps": "6:32 - 6:46",
         "Color IDs": "843 - 872",
         "Group IDs": "8421 - 8720",
-        "Creator(s)": "goran",
-        "Status": null
+        "Creator(s)": "42fps",
+        "Status": "Terminado"
     },
     {
         "No.": 30,
         "Timestamps": "6:46 - 7:00",
         "Color IDs": "873 - 902",
         "Group IDs": "8721 - 9020",
-        "Creator(s)": null,
+        "Creator(s)": "Xoulz",
         "Status": null
     },
     {
@@ -252,8 +252,8 @@
         "Timestamps": "7:00 - 7:14",
         "Color IDs": "903 - 932",
         "Group IDs": "9021 - 9320",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Aniiuu",
+        "Status": "Terminado"
     },
     {
         "No.": 32,
