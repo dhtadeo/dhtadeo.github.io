@@ -131,8 +131,7 @@ var text = [
     `No poop allowed`,
     `New rule: Never not be locked in. Penalty: Russian sleep experiment.`,
     `STEP 1 IN LIFE: DONT HAVE A CHILD BECAUSE THEN YOULL BE RUINING TWO DIFFERENT LIVES AT THE SAME TIME`,
-    `Lo lograron. Finalmente lo rompieron. Finalmente ganaron. Destrozaron a alguien. Alguien que siempre estaba feliz, que siempre estaba sonriendo. Alguien que no merecía el odio. Alguien que no hacía nada más que ayudar a las personas. Alguien que amó con todo su corazón.`,
-    ``
+    `Lo lograron. Finalmente lo rompieron. Finalmente ganaron. Destrozaron a alguien. Alguien que siempre estaba feliz, que siempre estaba sonriendo. Alguien que no merecía el odio. Alguien que no hacía nada más que ayudar a las personas. Alguien que amó con todo su corazón.`
 ];
 
 function chooseRandomText() {
