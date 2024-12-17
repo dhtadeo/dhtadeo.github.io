@@ -1,4 +1,5 @@
 var initialRandomText = document.getElementById('init-random-text');
+var changeTxtButton = document.getElementById('change-text-btn')
 
 // Text array
 var text = [
@@ -104,7 +105,34 @@ var text = [
     `Bitches be dating latinos talkin' 'bout "with my nigga" bitch that's Ernesto de la Cruz`,
     `Live yo zestiest most bestiest life`,
     `My dad is mad at me because I'm dropping out to focus on my OnlyFans`,
-    `Melodians 탈덕안돼... Ahhhh`
+    `Melodians 탈덕안돼... Ahhhh`,
+    `Heehee. That's funny.`,
+    `SUPER BOT`,
+    `NPC`,
+    `^💢😭😭 💢💢💢 💢😭 😭💢💢💢💢😭 💢  💢😭😭 😭 💢😭💢😭 💢💢💢 💢😭😭 😭  💢 😭😭😭😭 😭😭 😭😭😭 😭💢😭💢😭💢`,
+    `💢😭💢😭 😭😭💢 💢😭 💢😭 💢😭💢💢`,
+    `Vamos cerrando el ortito`,
+    `I am a hawk too`,
+    `I just got kicked out by my baka parents for being 24 and not having a job or an education.`,
+    `Raise your children`,
+    `Cuando me estoy besando con el ingeniero en sistemas y me dice "ahí te va en 1024 GB" (en Tera)`,
+    `Jugadores de Terraria, Touhou, Minecraft, Free Fire, Hollow Knight, Brawl Stars. Doki Doki Literature, LOL, Roblox, Osu!, Geometry Dash y Undertale viendo quién esquiva mejor el afecto fememino`,
+    `Black holes are billions of years old, but the ones that Stephen Hawking studied were only 14`,
+    `What do you call a fight between a black man and a monkey? A sibling quarrel`,
+    `What is H!tler least favourite planet? Jewpiter, considering the amount of gas its filled with`,
+    `What do girls and rocks have in common? The flat ones always gets skipped`,
+    `What is the difference of computers and americans? Computers have troubleshooting`,
+    `What's the biggest city in America? Obecity`,
+    `What do you do when your dishwasher stops working? You punch her`,
+    `Why are women evacuated first in a disaster? So men can think of a solution in silence`,
+    `Why there are no pharmacies in Africa? Cuz you can't take medicine on an empty stomach`,
+    `People are like jokes, not everyone likes dark ones`,
+    `Dark humour is like a kid with cancer, it never gets old`,
+    `No poop allowed`,
+    `New rule: Never not be locked in. Penalty: Russian sleep experiment.`,
+    `STEP 1 IN LIFE: DONT HAVE A CHILD BECAUSE THEN YOULL BE RUINING TWO DIFFERENT LIVES AT THE SAME TIME`,
+    `Lo lograron. Finalmente lo rompieron. Finalmente ganaron. Destrozaron a alguien. Alguien que siempre estaba feliz, que siempre estaba sonriendo. Alguien que no merecía el odio. Alguien que no hacía nada más que ayudar a las personas. Alguien que amó con todo su corazón.`,
+    ``
 ];
 
 function chooseRandomText() {
@@ -120,3 +148,5 @@ function chooseRandomText() {
 }
 
 chooseRandomText();
+
+changeTxtButton.addEventListener('click', chooseRandomText);

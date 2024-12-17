@@ -12,23 +12,23 @@
         "Timestamps": "0:00 - 0:14",
         "Color IDs": "3 - 32",
         "Group IDs": "21 - 320",
-        "Creator(s)": "Simvnn y AkaLimes",
-        "Status": "En progreso"
+        "Creator(s)": null,
+        "Status": null
     },
     {
         "No.": 2,
         "Timestamps": "0:14 - 0:28",
         "Color IDs": "33 - 62",
         "Group IDs": "321 - 620",
-        "Creator(s)": "Simvnn y AkaLimes",
-        "Status": "En progreso"
+        "Creator(s)": null,
+        "Status": null
     },
     {
         "No.": 3,
         "Timestamps": "0:28 - 0:42",
         "Color IDs": "63 - 92",
         "Group IDs": "621 - 920",
-        "Creator(s)": "Simvnn y AkaLimes",
+        "Creator(s)": null,
         "Status": "En progreso"
     },
     {
@@ -36,8 +36,8 @@
         "Timestamps": "0:42 - 0:56",
         "Color IDs": "93 - 122",
         "Group IDs": "921 - 1220",
-        "Creator(s)": "Simvnn y AkaLimes",
-        "Status": "En progreso"
+        "Creator(s)": null,
+        "Status": null
     },
     {
         "No.": 5,
@@ -93,7 +93,7 @@
         "Color IDs": "303 - 332",
         "Group IDs": "3021 - 3320",
         "Creator(s)": "Regina",
-        "Status": "En progreso"
+        "Status": "Terminado"
     },
     {
         "No.": 12,
@@ -148,7 +148,7 @@
         "Timestamps": "3:58 - 4:12",
         "Color IDs": "513 - 542",
         "Group IDs": "5121 - 5420",
-        "Creator(s)": null,
+        "Creator(s)": "S4S33K",
         "Status": null
     },
     {
@@ -156,8 +156,8 @@
         "Timestamps": "4:12 - 4:26",
         "Color IDs": "543 - 572",
         "Group IDs": "5421 - 5720",
-        "Creator(s)": null,
-        "Status": null
+        "Creator(s)": "Liprin",
+        "Status": "En progreso"
     },
     {
         "No.": 20,
