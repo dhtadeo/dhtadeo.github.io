@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial;
-    background: url(../res/winter_cirno.jpg) no-repeat center center fixed;
+    background: url('https://images.wikidexcdn.net/mwuploads/wikidex/f/f5/latest/20240119093803/Ilustraci%C3%B3n_Pok%C3%A9mon_paradoja_primitivos.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
