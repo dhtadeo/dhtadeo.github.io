@@ -1,31 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="res/favicon.ico">
-    <title>TadeoWeb</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Tadeo</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
-    <header>
+    <header class="header-nav">
         <nav>
-            <h1><img src="" alt="" width="35"> - TadeoWeb - <img src="" alt="" width="35"></h1>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#about-me">Sobre Mí</a></li>
+                <li><a href="#apps">Apps</a></li>
+                <li><a href="#extra">Extra</a></li>
+            </ul>
         </nav>
     </header>
-    <br>
-    <class="container">
-        <aside class="profile-section">
-                <h2>Tadeo</h2>
-                <p>ok.</p>
+
+    <section id="home" class="hero">
+        <h1>Tadeo</h1>
+
+        <img src="./assets/profileHNK.jpg" alt="Profile photo" class="profile-photo">
+
+        <p>
+            Soy un programador y desarrollador web de lo poco habitual. <br>
+            Me gusta experimentar con nuevos sistemas y tecnologías relacionado con el análisis de datos y Machine
+            Learning. <br>
+            También soy medio diseñador gráfico pero mi mente explota cuando quiero diseñar algo.
+        </p>
+
+        <div class="social-icons-container">
+            <a href="https://x.com/tadearaneta" target="_blank" class="social-btn" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com/dhttadeo" target="_blank" class="social-btn" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/@Tadearaneta" target="_blank" class="social-btn" title="Youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://github.com/dhtadeo" target="_blank" class="social-btn" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <main>
+        <section id="experience" class="section-container">
+            <h2>Experiencia</h2>
+
+            <div class="info-box">
+                <h3>Backend y Frontend</h3>
+                <span class="date">2026</span>
+                <p>
+                    Gestionar un sitio web de e-learning para niños. Añadir nuevas funcionalidades, corregir errores,
+                    mejorar la experiencia del usuario y romper el Backend cada 2 semanas.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h3>Proyecto de Conservación de Tortugas Marinas</h3>
+                <span class="date">2025 - 2026</span>
+                <p>
+                    Colaboré en un proyecto de conservación de tortugas marinas utilizando análisis de datos para
+                    monitorear y proteger las poblaciones de tortugas. Implementé modelos de Machine Learning para
+                    predecir posibles dpatrones de migración y mejorar las estrategias de conservación.
+                </p>
+            </div>
+        </section>
+
+        <section id="about-me" class="section-container">
+            <h2>Sobre Mí</h2>
+            <div class="grid-2-columns">
+                <div class="info-box">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li><strong>Español:</strong> Nativo</li>
+                        <li><strong>Inglés:</strong> Avanzado (C1)</li>
+                        <li><strong>Francés:</strong> Súper básico</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h3>Me Gusta</h3>
+                    <ul>
+                        <li>Pasear en bicicleta</li>
+                        <li>Coleccionar Fumos</li>
+                        <li>Jugar videojuegos</li>
+                        <li>No tener deudas con el SAT</li>
+                        <li>Perder el tiempo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps" class="section-container">
+            <h2>Apps</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Calculadora</h3>
+                    <p>No sé por qué querrías sacar tus cuentas en un sitio web, pero adelante.</p>
+                    <a href="./pages/app/calculator/" class="project-link">Ver &rarr;</a>
+                </article>
+                <article class="project-card">
+                    <h3>Tic Tac Toe</h3>
+                    <p>Más conocido como <strong>Gato</strong>, el jueguito donde marcas casillas en un tablero hasta que uno gana.
+                        Incluye PvCPU y PvP.</p>
+                    <a href="./pages/app/tictactoe/" class="project-link">Ver &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="extra" class="section-container">
+            <h2>Extra</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Colección de peluches</h3>
+                    <p>Una colección de peluches (principalmente Fumos) que poseo y me gusta sacarles fotos.</p>
+                    <a href="./pages/extra/plushies/" class="project-link">Ver &rarr;</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Trilogy of Memories (Geometry Dash)</h3>
+                    <p>Un recuento de tres niveles nada serios que he organizado y creado junto con otras personas.</p>
+                    <a href="./pages/extra/gd-trilogy/" class="project-link">Ver &rarr;</a>
+                </article>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>¡Hablemos!</h3>
+            <p id="init-random-text"></p>
+            <div class="social-media">
+                <a href="https://twitter.com/dhtadeo" target="_blank"><i class="fab fa-twitter"></i> </a>
+                <a href="https://instagram.com/dhttadeo" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <a href="https://youtube.com/@Tadearaneta" target="_blank"><i class="fab fa-youtube"></i> </a>
             </div>
             <div class="social-media">
-                <button target="_blank" onclick="window.open('https://x.com/tadearaneta', '')">
-                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/4/4d/latest/20150321173638/Sylveon_XY.gif" alt="Twitter">
-                    <span>Twitter</span>
-                </button>
+                <a href="https://github.com/dhtadeo/dhtadeo.github.io" target="_blank"><i class="fab fa-github"></i> Fork me</a>
             </div>
-        </aside>
-    <script src="js/navbarRandomText.js"></script>
+        </div>
+        <p class="copyright">&copy; 2026 Tadeo. Creado con GitHub Pages.</p>
+    </footer>
 </body>
+
 </html>
