@@ -1,0 +1,172 @@
+.game-container {
+    max-width: 600px;
+    text-align: center;
+}
+
+.game-title {
+    border-bottom: none !important;
+    margin-bottom: 20px;
+}
+
+/* Mode and Player setting */
+.game-settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.setting-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+}
+
+.choice-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.choice-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--color-primary);
+    background: transparent;
+    color: var(--color-primary);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.choice-btn.active {
+    background: var(--color-primary);
+    color: white;
+}
+
+/* Scoreboard */
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.score-card {
+    background: var(--color-bg);
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.player-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.score-value {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.status-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    min-height: 24px;
+}
+
+/* Board */
+.board-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 8px;
+    background-color: #444;
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cell {
+    background-color: var(--color-card);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: var(--color-text);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #f1f1f1;
+}
+
+.cell.x-mark { color: #e74c3c; }
+.cell.o-mark { color: #3498db; }
+
+/* Victory strike */
+.strike {
+    position: absolute;
+    background-color: #2ecc71;
+    z-index: 10;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+/* JS generated lines for victory strikes */
+.strike-row-0 { top: 15%; left: 5%; width: 90%; height: 6px; opacity: 1; }
+.strike-row-1 { top: 49%; left: 5%; width: 90%; height: 6px; opacity: 1; }
+.strike-row-2 { top: 83%; left: 5%; width: 90%; height: 6px; opacity: 1; }
+
+.strike-col-0 { left: 15%; top: 5%; height: 90%; width: 6px; opacity: 1; }
+.strike-col-1 { left: 49%; top: 5%; height: 90%; width: 6px; opacity: 1; }
+.strike-col-2 { left: 83%; top: 5%; height: 90%; width: 6px; opacity: 1; }
+
+.strike-diag-0 { 
+    top: 50%; left: -10%; width: 120%; height: 6px; 
+    transform: translateY(-50%) rotate(45deg); opacity: 1; 
+}
+.strike-diag-1 { 
+    top: 50%; left: -10%; width: 120%; height: 6px; 
+    transform: translateY(-50%) rotate(-45deg); opacity: 1; 
+}
+
+.reset-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--color-bg);
+}

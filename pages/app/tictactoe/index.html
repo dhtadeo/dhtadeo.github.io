@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe | Tadeo</title>
+    <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../../styles.css"> <link rel="stylesheet" href="styles.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="header-nav">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../../../index.html"><i class="fas fa-arrow-left"></i> Volver al Inicio</a></li>
+                <li><a href="#">Tic Tac Toe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="section-container game-container">
+        <div class="info-box">
+            <h2 class="game-title">Tic Tac Toe</h2>
+            
+            <div class="game-settings">
+                <div class="setting-group">
+                    <label for="game-mode">Modo de Juego:</label>
+                    <select id="game-mode">
+                        <option value="pvp">Jugador vs Jugador</option>
+                        <option value="cpu-easy">Jugador vs CPU (Fácil)</option>
+                        <option value="cpu-hard">Jugador vs CPU (Difícil)</option>
+                    </select>
+                </div>
+
+                <div class="setting-group" id="player-choice-group" style="display: none;">
+                    <label>Jugar como:</label>
+                    <div class="choice-buttons">
+                        <button class="choice-btn active" data-player="X">X</button>
+                        <button class="choice-btn" data-player="O">O</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scoreboard">
+                <div class="score-card">
+                    <span class="player-label">X</span>
+                    <span class="score-value" id="score-x">0</span>
+                </div>
+                <div class="score-card">
+                    <span class="player-label">O</span>
+                    <span class="score-value" id="score-o">0</span>
+                </div>
+            </div>
+
+            <div class="status-message" id="status-text">Turno de X</div>
+
+            <div class="board-wrapper">
+                <div class="board" id="board">
+                    <div class="cell" data-index="0"></div>
+                    <div class="cell" data-index="1"></div>
+                    <div class="cell" data-index="2"></div>
+                    <div class="cell" data-index="3"></div>
+                    <div class="cell" data-index="4"></div>
+                    <div class="cell" data-index="5"></div>
+                    <div class="cell" data-index="6"></div>
+                    <div class="cell" data-index="7"></div>
+                    <div class="cell" data-index="8"></div>
+                    <div class="strike" id="strike"></div>
+                </div>
+            </div>
+
+            <button class="project-link reset-btn" id="reset-btn">Reiniciar Partida</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <i id="init-random-text"></i>
+            <div class="social-media">
+                <a href="https://twitter.com/dhtadeo" target="_blank"><i class="fab fa-twitter"></i> </a>
+                <a href="https://instagram.com/dhttadeo" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <a href="https://youtube.com/@Tadearaneta" target="_blank"><i class="fab fa-youtube"></i> </a>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/dhtadeo/dhtadeo.github.io" target="_blank"><i class="fab fa-github"></i> Fork me</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Tadeo. Creado con GitHub Pages.</p>
+    </footer>
+    <script src="../../../assets/text_sorter.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
