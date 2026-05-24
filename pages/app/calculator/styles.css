@@ -1,0 +1,155 @@
+.calc-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.calculator-card {
+    background-color: var(--color-card);
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: max-width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+}
+
+.calculator-card.scientific {
+    max-width: 520px;
+}
+
+.calc-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.mode-label { transition: color 0.3s; }
+.active-mode { color: var(--color-primary); }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px; width: 18px;
+    left: 3px; bottom: 3px;
+    background-color: white;
+    transition: .4s;
+}
+input:checked + .slider { background-color: var(--color-primary); }
+input:checked + .slider:before { transform: translateX(26px); }
+.slider.round { border-radius: 24px; }
+.slider.round:before { border-radius: 50%; }
+
+.display {
+    background-color: #f1f3f6;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.previous-operand {
+    color: #888;
+    font-size: 1.1rem;
+    min-height: 24px;
+    white-space: nowrap;
+}
+
+.current-operand {
+    color: var(--color-text);
+    font-size: 2.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.current-operand::-webkit-scrollbar {
+    display: none;
+}
+
+.keypad-container {
+    display: flex;
+    gap: 12px;
+}
+
+.keypad-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 55px);
+    gap: 10px;
+    flex: 1;
+}
+
+.keypad-sci {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 55px);
+    gap: 10px;
+    width: 140px;
+}
+
+.calculator-card.scientific .keypad-sci {
+    display: grid;
+}
+
+.btn {
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: var(--color-text);
+    transition: transform 0.1s ease, background-color 0.2s ease, box-shadow 0.1s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover { background-color: #e9ecef; }
+.btn:active, .btn.active-key {
+    transform: scale(0.92);
+    box-shadow: none;
+    background-color: #e0e0e0;
+}
+
+.btn-operator { background-color: #e3f2fd; color: var(--color-primary); }
+.btn-operator.active-key { background-color: #bbdefb; }
+
+.btn-action { background-color: #ffebee; color: #e53935; }
+.btn-action.active-key { background-color: #ffcdd2; }
+
+.btn-sci-instant { background-color: #e3f2fd; color: var(--color-primary); }
+.btn-sci { background-color: #f0f0f0; color: #555; font-size: 1rem; }
+
+.btn-equal { background-color: var(--color-primary); color: white; }
+.btn-equal:hover { background-color: #0056b3; }
+.btn-equal.active-key { background-color: #004494; }

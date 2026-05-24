@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora | Tadeo</title>
+    <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="header-nav">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../../../index.html"><i class="fas fa-arrow-left"></i> Inicio</a></li>
+                <li><a href="#">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="section-container calc-wrapper">
+        <div class="calculator-card">
+            <div class="calc-header">
+                <span class="mode-label">Simple</span>
+                <label class="switch">
+                    <input type="checkbox" id="mode-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="mode-label">Científica</span>
+            </div>
+
+            <div class="display">
+                <div class="previous-operand" id="previous-operand"></div>
+                <div class="current-operand" id="current-operand">0</div>
+            </div>
+
+            <div class="keypad-container">
+                <div class="keypad-sci" id="sci-pad">
+                    <button class="btn btn-sci" data-action="sin">sin</button>
+                    <button class="btn btn-sci" data-action="cos">cos</button>
+                    <button class="btn btn-sci" data-action="tan">tan</button>
+                    <button class="btn btn-sci" data-action="log">log</button>
+                    <button class="btn btn-sci" data-action="√">√x</button>
+                    <button class="btn btn-sci" data-action="x²">x²</button>
+                    <button class="btn btn-sci" data-action="π">π</button>
+                    <button class="btn btn-sci" data-action="e">e</button>
+                    <button class="btn btn-operator" data-op="^">xʸ</button>
+                    <button class="btn btn-sci" data-action="1/x">1/x</button>
+                </div>
+
+                <div class="keypad-main">
+                    <button class="btn btn-action clear" data-action="clear" data-key="Escape">AC</button>
+                    <button class="btn btn-action delete" data-action="delete" data-key="Backspace">DEL</button>
+                    <button class="btn btn-sci-instant" data-action="%">%</button>
+                    <button class="btn btn-operator" data-op="÷" data-key="/">÷</button>
+
+                    <button class="btn btn-number" data-num="7" data-key="7">7</button>
+                    <button class="btn btn-number" data-num="8" data-key="8">8</button>
+                    <button class="btn btn-number" data-num="9" data-key="9">9</button>
+                    <button class="btn btn-operator" data-op="×" data-key="*">×</button>
+
+                    <button class="btn btn-number" data-num="4" data-key="4">4</button>
+                    <button class="btn btn-number" data-num="5" data-key="5">5</button>
+                    <button class="btn btn-number" data-num="6" data-key="6">6</button>
+                    <button class="btn btn-operator" data-op="-" data-key="-">-</button>
+
+                    <button class="btn btn-number" data-num="1" data-key="1">1</button>
+                    <button class="btn btn-number" data-num="2" data-key="2">2</button>
+                    <button class="btn btn-number" data-num="3" data-key="3">3</button>
+                    <button class="btn btn-operator" data-op="+" data-key="+">+</button>
+
+                    <button class="btn btn-sci-instant" data-action="±">±</button>
+                    <button class="btn btn-number" data-num="0" data-key="0">0</button>
+                    <button class="btn btn-number" data-num="." data-key=".">.</button>
+                    <button class="btn btn-equal" data-action="compute" data-key="Enter">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <i id="init-random-text"></i>
+            <div class="social-media">
+                <a href="https://twitter.com/dhtadeo" target="_blank"><i class="fab fa-twitter"></i> </a>
+                <a href="https://instagram.com/dhttadeo" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <a href="https://youtube.com/@Tadearaneta" target="_blank"><i class="fab fa-youtube"></i> </a>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/dhtadeo/dhtadeo.github.io" target="_blank"><i class="fab fa-github"></i> Fork me</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Tadeo. Creado con GitHub Pages.</p>
+    </footer>
+    <script src="../../../assets/text_sorter.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
